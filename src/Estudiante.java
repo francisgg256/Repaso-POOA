@@ -7,8 +7,6 @@ public class Estudiante extends Persona{
     }
 
     public void mostrarCurso(){
-        System.out.printf("Estoy matriculado en: %s \n", curso);
+        System.out.printf("Estoy matriculado en: %s %n", curso);
     }
-
-
 }
